@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Ensure the container fills the width of the viewport */
+.headerContainer {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Center-align all child elements */
+  padding-top: 50px; /* Adjust based on the height of the fixed navbar */
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the navigation bar */
+nav {
+  background-color: #2799f7; /* Adjust color as needed */
+  padding: 10px;
+  width: 100%; /* Make sure the nav takes the full width */
+  display: flex;
+  justify-content: center; /* Center-align the nav items */
+  position: fixed; /* Fix the position at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays above other content */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the unordered list to be horizontal */
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Style each list item */
+nav ul li {
+  margin-right: 20px; /* Space between links */
+}
+
+/* Style the links */
+nav ul li a {
+  color: rgb(242, 242, 242); /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+/* Add hover effect for links */
+nav ul li a:hover {
+  text-decoration: underline;
 }
