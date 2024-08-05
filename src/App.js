@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Link as ScrollLink, Element } from 'react-scroll';
 import About from './components/About';
 import Skill from './components/Skills';
-import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Services from './components/Services'
 import ContactPage from './components/Contact';
@@ -49,7 +48,7 @@ function App() {
                 Skills
               </ScrollLink>
             </li>
-            <li>
+            {/* <li>
               <ScrollLink 
                 to="projectsClass" 
                 smooth={true} 
@@ -58,7 +57,7 @@ function App() {
               >
                 Projects
               </ScrollLink>
-            </li>
+            </li> */}
             <li>
               <ScrollLink 
                 to="contactClass" 
@@ -76,7 +75,7 @@ function App() {
                 duration={500}
                 offset={-70} // Adjust based on header height
               >
-                My Blogs
+                Projects
               </ScrollLink>
             </li>
           </ul>

@@ -1,67 +1,31 @@
-/* Ensure the container fills the width of the viewport */
 .aboutContainer {
-    display: flex;
-    align-items: center; /* Center items vertically */
-    padding: 20px 50px; /* Adjust padding as needed */
-    background-color: rgb(209, 228, 234);
-    width: 100%;
-    box-shadow: black;
-  
-  }
-  
-  /* Style the image */
-  .myPhoto {
-    width: 150px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 25px; /* Adjust curvature of corners */
-    margin-right: 15px; /* Space between image and text */
-    
-  }
-  
-  /* Style the description */
-  .description {
-    max-width: 500px; /* Limit the width of the description */
-  }
-  
-  .description h1 {
-    font-size: 24px; /* Adjust font size as needed */
-    margin: 0; /* Remove default margin */
-  }
-.heroSection{
-    margin-bottom: 0%;
-    font-size: 1rem; 
-    margin-top: 20px;
-   
-} 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem; /* Smaller size for mobile screens */
-    }
+  display: flex;
+  align-items: flex-start; /* Align items to the start (top) */
+  padding: 40px 50px;
+  background-color: rgb(237, 239, 240);
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to container */
 }
-.aboutMe{
-    font-size: 17px;
+
+.myPhoto {
+  width: 150px;
+  height: auto;
+  border-radius: 25px;
+  margin-right: 20px; /* Increased margin for better spacing */
 }
-/* .fullstack{
-    background-image: url('/images/fullstack.png');
-    background-size: cover; /* This will ensure the image covers the entire element */
-    /* background-position: center; /* This will center the image */
-    /* background-repeat: no-repeat; Prevents the image from repeating */
-    /* height: 100vh; /* Adjust the height as needed */
-    /* width: 100%; /* Adjust the width as needed */
-    /* padding: 50px 50px;
-/* } */ 
-.fullstack{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50vh;
-    width: 100%;
-    
-}
-.Greet{
-    font-size: 20px;
-    margin:10px;;
-}
+
+
+
+
+/* .fullstack {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  
+} */
+
 .resume-section {
   margin-top: 20px;
 }
@@ -77,3 +41,20 @@
 .resume-section a:hover {
   text-decoration: underline;
 }
+
+.heroSection{
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.about-page {
+  margin-top: 20px;
+  padding: 20px 50px;
+  font-size: 18px;
+}
+
+.fullstack {
+  width: 50%; /* Adjust to desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+  
