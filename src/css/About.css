@@ -3,12 +3,12 @@
   align-items: flex-start; /* Align items to the start (top) */
   padding: 40px 50px;
   background-color: rgb(237, 239, 240);
-  width: 100%;
+  width: 92vw;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to container */
 }
 
 .myPhoto {
-  width: 150px;
+  width: 155px;
   height: auto;
   border-radius: 25px;
   margin-right: 20px; /* Increased margin for better spacing */
@@ -45,16 +45,18 @@
 .heroSection{
   font-size: 10px;
   margin-bottom: 10px;
+  color: rgb(8, 126, 42);
 }
 .about-page {
   margin-top: 20px;
   padding: 20px 50px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .fullstack {
   width: 50%; /* Adjust to desired width */
   height: auto; /* Maintain aspect ratio */
 }
+
 
   

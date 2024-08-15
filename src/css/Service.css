@@ -1,7 +1,8 @@
 .services {
     padding: 20px;
-    background-color: #b7e1f4;
-    margin-top: 5px;
+    background-color: rgb(237, 239, 240);
+    margin-top: 50px;
+    width: 92vw;
 }
 .service-card{
     border: 1px solid #ddd;
