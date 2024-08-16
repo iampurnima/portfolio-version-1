@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/About.css';
 import myPhoto from "../assets/images/shot.png";
 import logo from "../assets/images/fullstack-image.png";
+import resume from "../assets/resume/resume.pdf";
 
 function About() {
   return (
@@ -29,12 +30,12 @@ function About() {
       </p>
       <div className='resume-section'>
         <a
-         href="/resume/resume_purnima.pdf" 
+         href={resume.pdf} 
          target="_blank" 
          rel="noopener noreferrer">View Resume</a>
         <a
-         href="/resume/resume_purnima.pdf" 
-          download="resume_purnima.pdf">Download Resume</a>
+         href={resume.pdf} 
+          download={resume.pdf}>Download Resume</a>
 
       </div>
     </div>
