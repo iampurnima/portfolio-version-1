@@ -17,9 +17,6 @@ function App() {
     <Router>
       <div className='headerContainer'>
         <nav>
-          <div >
-          <span className='bar'></span> 
-          </div>
           <ul>
             <li>
               <ScrollLink 
