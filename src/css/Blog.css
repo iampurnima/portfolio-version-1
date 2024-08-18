@@ -1,85 +1,74 @@
 .blog-page {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    background: #bad8d8;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 5rem;
-    width: 100vw;
-  }
-  
-  .blog-page h2 {
-    margin-top: 0;
-  }
-  
-  .quotes-section, .projects-section, .media-section {
-    margin-bottom: 2rem;
-  }
-  
-  .quotes-list {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .quote {
-    border-left: 4px solid #333;
-    padding-left: 1rem;
-    margin: 1rem 0;
-    font-style: oblique;
-    color: rgb(247, 9, 25);
-    font-size: 20px;
-    font-weight: 100px;
-  }
-  
-  .projects-list {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .project {
-    margin-bottom: 1.5rem;
-  }
-  
-  .project h3 {
-    margin-top: 0;
-  }
-  
-  .project a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  .project a:hover {
-    text-decoration: underline;
-  }
-  
-  .media-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .media-gallery img, .media-gallery video {
-    max-width: 100%;
-    border-radius: 8px;
-  }
-  .quote{
- 
-  }
-.blogmy{
-  text-align: center;
-  font-size: 27px;
-  color: #06680e;
-  text-decoration: underline;
-}
-.media-section{
-  color: rgb(5, 146, 5);
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 5rem;
+  width: 95vw;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-out;
 }
 
-.vaktapur{
-  padding: 1rem 0rem;
-  margin: 0rem;
-  size: 23px;
-  width: 400px;
-}  
+.blog-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projects-section {
+  margin-bottom: 2rem;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.project p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.project a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

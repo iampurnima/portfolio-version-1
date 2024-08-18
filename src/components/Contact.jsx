@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/ContactPage.css'; // Import your CSS file for styling
+import '../css/ContactPage.css';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -72,9 +72,9 @@ const ContactPage = () => {
 
       <div className="contact-info">
         <h3>Contact Information</h3>
-        <p>Email: <a href="purnimasharma0924@gmail.com">purnimasharma0924@gmail.com</a></p>
+        <p>Email: <a href="mailto:purnimasharma0924@gmail.com">purnimasharma0924@gmail.com</a></p>
         <p>Phone: +977 9864421904</p>
-        <p>Address:  Kathmandu, Nepal</p>
+        <p>Address: Kathmandu, Nepal</p>
       </div>
     </div>
   );

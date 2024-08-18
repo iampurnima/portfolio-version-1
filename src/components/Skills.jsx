@@ -5,7 +5,7 @@ const Skill = () => {
   // Sample skills data
   const skills = [
     { category: 'Languages', items: ['Python', 'JavaScript', 'HTML', 'CSS'] },
-    { category: 'Frameworks', items: ['Django', 'React','Flask'] },
+    { category: 'Frameworks', items: ['Django', 'React', 'Flask'] },
     { category: 'Tools', items: ['Git', 'Docker', 'VSCode'] },
   ];
 
@@ -17,7 +17,7 @@ const Skill = () => {
           <h3>{skillCategory.category}</h3>
           <ul>
             {skillCategory.items.map((skill, idx) => (
-              <li key={idx}>{skill}</li>
+              <li key={idx} className="skill-item">{skill}</li>
             ))}
           </ul>
         </div>

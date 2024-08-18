@@ -10,8 +10,8 @@ function About() {
       <div>
         <img className='myPhoto' src={myPhoto}/>
         <div className='heroSection'>
-      <h2 >Purnima Sharma</h2>
-      <h2 >Full-Stack web devloper</h2>
+      <h2 className='name'>Purnima Sharma</h2>
+      <h2 className='profession' >Full-Stack web devloper</h2>
       
       </div>
 
