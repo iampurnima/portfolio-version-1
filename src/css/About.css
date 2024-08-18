@@ -1,18 +1,4 @@
-.aboutContainer {
-  display: flex;
-  align-items: flex-start; /* Align items to the start (top) */
-  padding: 40px 50px;
-  background-color: rgb(230, 237, 237);
-  width: 92vw;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to container */
-}
 
-.myPhoto {
-  width: 155px;
-  height: auto;
-  border-radius: 25px;
-  margin-right: 20px; /* Increased margin for better spacing */
-}
 
 
 
@@ -64,19 +50,9 @@
 
 
 /* About.css */
-.aboutContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation: fadeIn 2s ease-in;
-}
 
-.myPhoto {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  animation: slideInLeft 1.5s ease-in-out;
-}
+
+
 
 .heroSection h2 {
   margin: 0;
@@ -119,27 +95,6 @@
   
 
 
-.myPhoto {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  border: 5px solid #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1.5s ease-in-out;
-  display: block; /* Ensure the photo is centered */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.aboutContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation: fadeIn 2s ease-in;
-}
-
-
 
 
 /* Container settings */
@@ -149,10 +104,10 @@
   align-items: center;
   padding: 40px 50px;
   background-color: #f7f9fb;
-  width: 92vw;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  animation: fadeIn 1.5s ease-in;
+  animation: fadeIn 2s ease-in;
+  width:92vw;
 }
 
 /* Profile photo */
@@ -168,6 +123,7 @@
   display: block; /* Ensure the photo is centered */
   margin-left: auto;
   margin-right: auto;
+  animation: slideInLeft 1.5s ease-in-out;
 }
 
 /* Hero section */
@@ -256,10 +212,6 @@
     font-size: 16px;
   }
 
-  .myPhoto {
-    width: 150px;
-    height: 150px;
-  }
 
   .heroSection h2 {
     font-size: 22px;
