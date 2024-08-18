@@ -70,78 +70,8 @@
     max-width: 800px; /* Set a max-width for better readability on large screens */
     /* margin-top: 5rem;
     width: 95vw; /* Adjust width for better responsiveness */
-/* } */ */ */ */
+/* } */ 
 
-
-form label {
-  display: block;
-  margin: 0.5rem 0 0.2rem;
-  font-weight: 500;
-  color: #333; /* Darker color for better readability */
-}
-
-form input, form textarea {
-  width: calc(100% - 2px); /* Remove the extra space */
-  padding: 12px;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc; /* Lighter border */
-  border-radius: 8px; /* More rounded corners */
-  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
-}
-
-form input:focus, form textarea:focus {
-  border-color: #28a745; /* Green border on focus */
-  outline: none;
-}
-
-form button {
-  background-color: #28a745;
-  color: #fff;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-form button:hover {
-  background-color: #218838; /* Darker green on hover */
-}
-
-
-.form-status {
-  color: #28a745;
-  font-weight: bold;
-  margin-top: 1rem;
-}
-
-.contact-info {
-  margin-top: 2rem;
-  padding: 10px;
-  border-top: 1px solid #ddd;
-  background: #fff;
-  border-radius: 8px;
-}
-
-.contact-info h3 {
-  margin-top: 0;
-  font-size: 1.4em;
-  color: #333;
-}
-
-.contact-info p {
-  margin: 0.5rem 0;
-}
-
-.contact-info a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
 
 
 
@@ -160,9 +90,12 @@ form button:hover {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   margin-top: 5rem;
-  width: 95vw;
+  width: 100%;
   box-sizing: border-box;
   animation: fadeIn 1s ease-out;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+
 }
 
 .contact-page h2 {
@@ -179,21 +112,26 @@ form label {
   display: block;
   margin: 0.5rem 0 0.2rem;
   font-weight: 500;
-  color: #333;
+  color: #333;  /* Darker color for better readability */
+  flex: 1 1 calc(50% - 20px); /* Two cards per row */
+  min-width: 300px; /* Ensure cards are not too small on smaller screens */
 }
 
 form input, form textarea {
-  width: calc(100% - 2px);
+  width: calc(100% - 2px);  /* Remove the extra space */
   padding: 12px;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  transition: border-color 0.3s ease;
+  border: 1px solid #ccc; /* Lighter border */
+  border-radius: 8px; /* More rounded corners */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
 form input:focus, form textarea:focus {
   border-color: #28a745;
   outline: none;
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.5); /* Shadow on focus */
+
 }
 
 form button {
@@ -204,11 +142,14 @@ form button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+
 }
 
 form button:hover {
-  background-color: #218838;
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
 }
 
 .form-status {
@@ -223,6 +164,7 @@ form button:hover {
   border-top: 1px solid #ddd;
   background: #fff;
   border-radius: 8px;
+  animation: fadeIn 2s ease-out;
 }
 
 .contact-info h3 {
@@ -293,56 +235,11 @@ form button:hover {
   }
 }
 
-.contact-page {
-  animation: fadeIn 1s ease-out;
-}
 
 form input, form textarea, form button {
   animation: fadeIn 1.5s ease-out;
 }
 
-.contact-info {
-  animation: fadeIn 2s ease-out;
-}
 
 
 
-
-
-
-
-form input, form textarea {
-  transition: all 0.3s ease; /* Smooth transition for all properties */
-}
-
-form input:focus, form textarea:focus {
-  border-color: #28a745;
-  box-shadow: 0 0 8px rgba(40, 167, 69, 0.5); /* Shadow on focus */
-}
-
-
-
-
-
-
-
-
-form button {
-  transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-form button:hover {
-  transform: scale(1.05); /* Slightly larger on hover */
-}
-
-
-
-.contact-page {
-  flex-wrap: wrap;
-  gap: 20px; /* Space between cards */
-}
-
-form label  {
-  flex: 1 1 calc(50% - 20px); /* Two cards per row */
-  min-width: 300px; /* Ensure cards are not too small on smaller screens */
-}

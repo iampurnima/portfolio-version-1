@@ -1,16 +1,4 @@
 
-.skill-section {
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin-top: 5rem;
-  width: 95vw;
-  box-sizing: border-box;
-  animation: fadeIn 1s ease-out;
-}
 
 /* Main heading styling */
 .skill-section h2 {
@@ -116,17 +104,7 @@
 
 
 
-.skill-section {
-  padding: 20px;
-  margin: auto;
-  background: #ecf7ec; /* Match background color with Contact page */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 92vw;
-  max-width: 1200px; /* Ensure it doesn't stretch too wide */
-  margin-top: 5rem;
-  animation: fadeIn 1.5s ease-in-out;
-}
+
 
 .skill-section h2 {
   margin-top: 0;
@@ -180,7 +158,9 @@
   background: #f4f9f4; /* Light background */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  max-width: 800px;
   margin-top: 5rem;
-  width: 95vw;
+  width: 100%;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-out;
+
 }
