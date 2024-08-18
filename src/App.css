@@ -59,18 +59,7 @@ nav ul li a:hover {
 }
 
 /* Navbar settings */
-nav {
-  background: linear-gradient(90deg, #2799f7, #50a1f0); /* Gradient background */
-  padding: 0; /* Increased padding for a more substantial feel */
-  width: 100%; /* Full width to cover entire viewport */
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
+
 
 /* Navbar list */
 nav ul {
