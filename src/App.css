@@ -12,7 +12,7 @@
 nav {
   background-color: #2799f7; /* Adjust color as needed */
   padding: 10px;
-  width:95vw;/* Make sure the nav takes the full width */
+  width:100%;  /* Make sure the nav takes the full width */
   display: flex;
   justify-content: center; /* Center-align the nav items */
   position: fixed; /* Fix the position at the top */
@@ -20,6 +20,7 @@ nav {
   left: 0;
   z-index: 1000;
   margin-bottom: 50px; /* Ensure it stays above other content */
+  border-radius:5px ;
 }
 
 /* Style the unordered list to be horizontal */
@@ -73,9 +74,10 @@ nav ul li a.active::after {
   }
   
   .headerContainer {
-    padding-top: 80px; /* Adjust for mobile view */
+    padding-top: 100px; /* Adjust for mobile view */
     margin-bottom: 70px;
     padding-bottom: 50px;
+    display: flex;
   }
 }
 

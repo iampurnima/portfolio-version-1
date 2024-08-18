@@ -1,5 +1,17 @@
 
-
+.skill-section{
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 5rem;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease-out;
+  width: 100%;
+  
+}
 /* Main heading styling */
 .skill-section h2 {
   margin: 0;
@@ -48,6 +60,8 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
   width: 100%;
+
+  
 }
 
 .skill-item:last-child {

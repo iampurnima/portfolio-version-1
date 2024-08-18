@@ -24,11 +24,18 @@
 
    .services {
     padding: 40px 20px;
-    background-color: rgb(237, 239, 240);
-    margin-top: 100px;
+    background-color: rgb(234, 244, 235);
     width: 100%; /* Full width */
-    max-width: 1200px; /* Limit width for large screens */
-    margin: 0 auto; /* Center align */
+    max-width: 1200px; /*Limit width for large screens */
+    margin:0 auto; /* Center align */
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    animation: fadeIn 1s ease-out;
 }
 
 .service-card {
@@ -60,11 +67,6 @@
 
 
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Space between cards */
-}
 
 .service-card {
     flex: 1 1 calc(50% - 20px); /* Two cards per row */
