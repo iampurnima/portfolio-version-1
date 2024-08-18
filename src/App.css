@@ -50,60 +50,6 @@ nav ul li a:hover {
 
 
 /* Container settings */
-.headerContainer {
-  width: 92vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px; /* Adjusted for a slightly larger fixed navbar */
-}
-
-/* Navbar settings */
-
-
-/* Navbar list */
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 30px; /* Space between each link */
-}
-
-/* Navbar list items */
-nav ul li {
-  position: relative; /* Needed for pseudo-element hover effect */
-}
-
-/* Navbar links */
-nav ul li a {
-  color: rgb(255, 255, 255); /* White text */
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: color 0.3s ease-in-out; /* Smooth transition for color change */
-}
-
-/* Navbar link hover effect */
-nav ul li a:hover {
-  color: #ffffff; /* Highlight color */
-}
-
-nav ul li a::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 3px;
-  background: #ffffff; /* Underline color */
-  transition: width 0.3s ease-in-out; /* Smooth underline expansion */
-  position: absolute;
-  bottom: -5px; /* Position underline just below text */
-  left: 0;
-}
-
-nav ul li a:hover::after {
-  width: 100%; /* Expand underline on hover */
-}
 
 /* Add an active link class if needed */
 nav ul li a.active {
