@@ -73,6 +73,8 @@ nav ul li a.active::after {
   
   .headerContainer {
     padding-top: 80px; /* Adjust for mobile view */
+    margin-bottom: 70px;
+    padding-bottom: 50px;
   }
 }
 
