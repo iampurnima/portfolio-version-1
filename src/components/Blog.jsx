@@ -5,6 +5,11 @@ const Blog = () => {
   // Sample data for quotes and projects
   const projects = [
     {
+      title: 'Student Registration Management System',
+      description: 'The student registration management app is a full-stack project where students can fill their form and manager can manage the students entry system. I plan to add more features in the future.',
+      link: 'https://github.com/iampurnima/Django-CRUD',
+    },
+    {
       title: 'Little Lemon Restaurant',
       description: 'The Little Lemon Restaurant app is a full-stack project. I plan to add more features in the future.',
       link: 'https://github.com/iampurnima/projectAPI.git',
@@ -22,7 +27,7 @@ const Blog = () => {
     {
       title: 'Portfolio',
       description: 'A showcase of my skills and projects in frontend and backend development.',
-      link: 'http://localhost:3001/',
+      link: 'https://iampurnima.github.io/portfolio-version-1/',
     },
   ];
 
