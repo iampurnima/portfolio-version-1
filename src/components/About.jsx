@@ -30,12 +30,12 @@ function About() {
       </p>
       <div className='resume-section'>
         <a
-         href={resume.pdf} 
+         href={resume} 
          target="_blank" 
          rel="noopener noreferrer">View Resume</a>
         <a
-         href={resume.pdf} 
-          download={resume.pdf}>Download Resume</a>
+         href={resume} 
+          download={resume}>Download Resume</a>
 
       </div>
     </div>
