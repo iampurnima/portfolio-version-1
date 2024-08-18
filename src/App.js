@@ -18,10 +18,7 @@ function App() {
       <div className='headerContainer'>
         <nav>
           <div className='menu-toggle' id='mobile-menu'>
-          <span className='bar'></span>
-          <span className='bar'></span>
-          <span className='bar'></span>
-            
+          <span className='bar'></span> 
           </div>
           <ul>
             <li>
