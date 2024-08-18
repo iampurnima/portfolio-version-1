@@ -61,7 +61,7 @@ nav ul li a:hover {
 /* Navbar settings */
 nav {
   background: linear-gradient(90deg, #2799f7, #50a1f0); /* Gradient background */
-  padding: 15px 0; /* Increased padding for a more substantial feel */
+  padding: 0; /* Increased padding for a more substantial feel */
   width: 100%; /* Full width to cover entire viewport */
   display: flex;
   justify-content: center;
