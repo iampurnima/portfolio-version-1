@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className='headerContainer'>
         <nav>
-          <div className='menu-toggle' id='mobile-menu'>
+          <div >
           <span className='bar'></span> 
           </div>
           <ul>
